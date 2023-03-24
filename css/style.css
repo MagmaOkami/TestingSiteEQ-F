@@ -1,0 +1,151 @@
+html {
+    background-color: #282b30;
+    font-family: HelveticaNowText,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+nav {
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    padding: 30px;
+    padding-left: 200px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .15);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    position: relative;
+    top: -2px;
+  }
+
+  .index {background-image: url('../image/hero-image-01.jpg'); background-position: center 65%;}
+  .about {background-image: url('../image/hero-image-02.jpg'); background-position: center 50%;}
+  .services {background-image: url('../image/hero-image-04.jpg'); background-position: center top;}
+  .contact {background-image: url('../image/hero-image-03.jpg'); background-position: center 45%;}
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    height: 85vh;
+  }
+  
+  header > div {
+    color: #fff;
+    text-shadow: 5px 5px 8px #000;
+    padding: 200px;
+    padding-right: 50%;
+  }
+  
+
+/* HomePage What we do. */
+  
+.container {
+  display: flex;
+  background-color: #fff;
+}
+
+.verticle-box {
+  flex: 0 0 60%;
+  box-shadow: 5px 0 5px rgba(0, 0, 0, .15);
+}
+
+.flex-item {
+  padding: 100px 200px 100px 200px;
+}
+
+.horizontal-box {
+  display: flex;
+  padding: 0 200px 100px 200px;
+  justify-content: space-between;
+}
+
+.item {
+  flex-basis: 40%;
+}
+
+.item-image {
+  position: relative;
+  flex: 0 0 40%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+.item-image img {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #000;
+  padding: 30px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul a {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-info {
+  flex-basis: 20%;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.footer-nav{
+  flex-basis: 15%;
+  text-align: left;
+}
+
+.footer-nav ul li {
+  margin-bottom: 10px;
+}
+
+.footer-cta{
+  flex-basis: 15%;
+  text-align: left;
+}
+
+.footer-contact{
+  flex-basis: 30%;
+  text-align: left;
+}
