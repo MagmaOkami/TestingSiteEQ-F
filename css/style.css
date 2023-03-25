@@ -61,7 +61,6 @@ nav {
     padding: 200px;
     padding-right: 50%;
   }
-  
 
 /* HomePage What we do. */
   
@@ -148,4 +147,36 @@ footer ul a {
 .footer-contact{
   flex-basis: 30%;
   text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+  header > div {
+    padding: 50px;
+  }
+  nav {
+    padding-left: 50px;
+  }
+  .flex-item {
+    padding: 50px;
+  }
+  .verticle-box{
+    flex-basis: 100%;
+  }
+  .horizontal-box {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .item-image {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer div ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .footer-contact {
+    padding: 0 20px;
+  }
 }
